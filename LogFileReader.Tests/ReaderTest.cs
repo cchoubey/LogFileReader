@@ -15,7 +15,7 @@ namespace LogFileReader.Tests
 
 			fileReader.Parse();
 			
-			Assert.IsTrue(fileReader.IpList.Distinct().Count() == 8, $"expected 10 found {fileReader.IpList.Distinct().Count()}");
+			Assert.IsTrue(fileReader.IpList.Distinct().Count() == 8, $"expected 8 found {fileReader.IpList.Distinct().Count()}");
 		}
 
 		[TestMethod]
